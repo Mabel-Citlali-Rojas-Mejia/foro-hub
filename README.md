@@ -55,7 +55,7 @@ Crea una base de datos en MySQL y ajusta las credenciales en src/main/resources/
 spring.datasource.url=jdbc:mysql://localhost:3306/forohub_db
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
-api.security.token.secret=${JWT_SECRET:123456}
+api.security.token.secret=${JWT_SECRET:your-secret-here}
  ```
 3 **Ejecutar el proyecto:**
  ```
