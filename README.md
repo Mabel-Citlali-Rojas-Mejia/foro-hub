@@ -49,6 +49,7 @@ El proyecto sigue una arquitectura limpia dividida en capas para facilitar el ma
    ```bash
    git clone [https://github.com/Mabel-Citlali-Rojas-Mejia/foro-hub.git](https://github.com/Mabel-Citlali-Rojas-Mejia/foro-hub.git)
    ```
+   "Las credenciales se configuran mediante variables de entorno. No se requiere modificar el código fuente."
 2. **Configurar la Base de Datos**:
 Crea una base de datos en MySQL y ajusta las credenciales en src/main/resources/application.properties:
 ```bash
